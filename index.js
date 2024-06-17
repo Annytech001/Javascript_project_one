@@ -51,10 +51,18 @@ console.log(howManySeconds(20));
 //     return 
 // }
 
-function lessThanOrEqualToZero(num) {
-    return num <= 0;
-}
-console.log(lessThanOrEqualToZero(9)); 
-console.log(lessThanOrEqualToZero(0)); 
-console.log(lessThanOrEqualToZero(-4));
+// function lessThanOrEqualToZero(num) {
+//     return num <= 0;
+// }
+// console.log(lessThanOrEqualToZero(9)); 
+// console.log(lessThanOrEqualToZero(0)); 
+// console.log(lessThanOrEqualToZero(-4));
 
+function nameString(name){
+	let result = name + "Edabit"
+  	return result;
+}
+
+console.log(nameString("Glory"));
+console.log(nameString("Bassey")); 
+console.log(nameString("javaScript"));
